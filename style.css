@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    background-color: #2c3e5059;
+}
+
 nav {
     color: white;
     background-color: #A9A9A9;
@@ -46,7 +50,7 @@ nav {
 }
 
 nav.scrolled {
-    background-color: black;
+    background-color: #2c3e50;
     /* Change to your desired color when scrolled */
 }
 
@@ -60,8 +64,22 @@ nav.scrolled {
     font-size: 32px;
     text-decoration: none;
     color: white;
-    padding-left: 30px;
+    
+    /* padding-left: 30px; */
 
+}
+
+.logo-set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#my-logo{
+    width: 36%;
+    padding-left: 30px;
+    
 }
 
 #logo:hover {
@@ -109,6 +127,7 @@ nav.scrolled {
 .section-title {
     font-size: 50px;
     text-align: center;
+    color: #2c3e50    ;
 }
 
 .title-text {
@@ -174,7 +193,7 @@ img {
 .container {
     max-width: 900px;
     margin: auto;
-    background: white;
+    background: #2c3e5073;
     padding: 20px;
 
 }
@@ -184,6 +203,7 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 20px;
+    color:white;
 }
 
 input[type="text"],
@@ -200,7 +220,7 @@ textarea {
 button {
     width: 100%;
     padding: 10px;
-    background-color: gray;
+    background-color: #2c3e50A1;
     color: white;
     border: none;
     border-radius: 4px;
@@ -208,7 +228,7 @@ button {
 }
 
 button:hover {
-    background-color: black;
+    background-color: #2c3e50;
 }
 
 form {
@@ -235,12 +255,14 @@ form {
 
 .user-deg {
     font-size: 25px;
+    color: #2c3e50BF;
 }
 
 .user-des {
     font-size: 20px;
     width: 500px;
     margin-top: 20px;
+    color: #2c3e50E6;
 }
 
 
@@ -335,6 +357,7 @@ form {
 
     .section-title {
         font-size: 35px;
+        
     }
 
     .mobile-nav {
